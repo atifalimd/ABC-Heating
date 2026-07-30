@@ -35,18 +35,18 @@ const Services = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
           {services.map((service, index) => (
             <div
               key={index}
               className="bg-white rounded-xl overflow-hidden shadow-md border border-gray-100 flex flex-col justify-between"
             >
               <div>
-                <div className="h-112 overflow-hidden">
+                <div className="h-96 overflow-hidden">
                   <img
                     src={service.image}
                     alt={service.title}
-                    className="w-4/5 h-full object-cover mx-auto hover:scale-105 transition-transform duration-300"
+                    className="w-3/5 h-full object-cover mx-auto hover:scale-105 transition-transform duration-300"
                   />
                 </div>
                 <div className="p-6">
