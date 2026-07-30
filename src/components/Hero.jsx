@@ -13,7 +13,7 @@ const Hero = () => {
           <div className="w-full lg:order-2">
             <div className="relative rounded-xl overflow-hidden shadow-2xl border border-gray-800">
               <img
-                src="https://images.unsplash.com/photo-1581094288338-2314dddb7ece?auto=format&fit=crop&w=1000&q=80"
+                src="/Hero.JPG"
                 alt="Heating engineer working on boiler"
                 className="w-full h-[280px] sm:h-[350px] lg:h-[450px] object-cover"
               />

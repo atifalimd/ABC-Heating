@@ -1,4 +1,3 @@
-import React from "react";
 import { ArrowRight } from "lucide-react";
 
 const Services = () => {
@@ -6,14 +5,12 @@ const Services = () => {
     {
       title: "Boiler Repair",
       desc: "Fast fixes for breakdowns and no heat",
-      image:
-        "https://images.unsplash.com/photo-1581094288338-2314dddb7ece?auto=format&fit=crop&w=800&q=80",
+      image: "/BoilerRepair.PNG",
     },
     {
       title: "Boiler Service",
       desc: "Annual checks to keep your warranty valid",
-      image:
-        "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80",
+      image: "/BoilerService.PNG",
     },
     {
       title: "Boiler Installation",
@@ -45,11 +42,11 @@ const Services = () => {
               className="bg-white rounded-xl overflow-hidden shadow-md border border-gray-100 flex flex-col justify-between"
             >
               <div>
-                <div className="h-48 overflow-hidden">
+                <div className="h-112 overflow-hidden">
                   <img
                     src={service.image}
                     alt={service.title}
-                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                    className="w-4/5 h-full object-cover mx-auto hover:scale-105 transition-transform duration-300"
                   />
                 </div>
                 <div className="p-6">
