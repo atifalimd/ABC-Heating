@@ -1,9 +1,23 @@
+import CoreValues from "./components/coreValue";
+import FaqSection from "./components/FaqSection.jsx";
+import Footer from "./components/Footer.jsx";
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
+import ReviewsSection from "./components/Reviews.jsx";
+import CoreServices from "./components/services.jsx";
+
 function App() {
   return (
     <div>
-      <h1 class="text-3xl font-bold underline">ABC Heating</h1>
+      <Navbar />
+      <Hero />
+      <CoreValues />
+      <CoreServices />
+      <ReviewsSection />
+      <FaqSection />
+      <Footer />
     </div>
   );
 }
 
-export default App
+export default App;
